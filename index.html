@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastalicia - Fábrica de Pastas Artesanales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Pastalicia</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">&#9776;</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>El sabor de la tradición <br /><span>hecho pasta</span></h1>
+            <p>Desde 1985 elaboramos pastas artesanales con ingredientes frescos y recetas de familia.</p>
+            <a href="#products" class="btn btn-primary">Descubrí nuestros productos</a>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Nuestras <span>Pastas</span></h2>
+            <p class="section-subtitle">Hechas a mano, con amor y los mejores ingredientes</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop');"></div>
+                    <div class="product-info">
+                        <h3>Tallarines Frescos</h3>
+                        <p>Huevos de campo, harina de trigo seleccionada y un toque de aceite de oliva.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop');"></div>
+                    <div class="product-info">
+                        <h3>Ravioles de Ricotta</h3>
+                        <p>Rellenos cremosos con espinaca fresca, ricotta y nuez moscada.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=300&fit=crop');"></div>
+                    <div class="product-info">
+                        <h3>Spaghetti Artesanal</h3>
+                        <p>El clásico de siempre, con la textura perfecta para cualquier salsa.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1611270629569-8b357cb8b18c?w=400&h=300&fit=crop');"></div>
+                    <div class="product-info">
+                        <h3>Fettuccine al Huevo</h3>
+                        <p>Cintas anchas y suaves ideales para salsas cremosas o mariscos.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?w=400&h=300&fit=crop');"></div>
+                    <div class="product-info">
+                        <h3>Gnocchi de Papa</h3>
+                        <p>Suaves bolitas de papa, perfectas para acompañar con manteca y salvia.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1598866594230-a7d19fbe806e?w=400&h=300&fit=crop');"></div>
+                    <div class="product-info">
+                        <h3>Lasagna Casera</h3>
+                        <p>Capas de pasta fresca listas para armá tu lasagna perfecta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about" id="about">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2 class="section-title">Nuestra <span>Historia</span></h2>
+                <p>Todo empezó en una pequeña cocina de barrio. La nona Amalia amasaba pasta cada domingo y el aroma envolvía toda la cuadra. Así nació <strong>Pastalicia</strong>, con la misión de llevar ese sabor casero a cada mesa.</p>
+                <p>Hoy, seguimos usando las mismas recetas tradicionales, seleccionamos personalmente cada ingrediente y amamos lo que hacemos. Porque la buena pasta no se improvisa: se siente, se huele y se disfruta.</p>
+                <a href="#contact" class="btn btn-secondary">Contactanos</a>
+            </div>
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1551462147-ff29053bfc14?w=600&h=450&fit=crop" alt="Nuestra fábrica de pastas" />
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Galería <span>Pastalicia</span></h2>
+            <p class="section-subtitle">Mirá cómo hacemos lo que más te gusta</p>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1576402187878-974f70c890a5?w=400&h=300&fit=crop" alt="Elaboración artesanal" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=400&h=300&fit=crop" alt="Amasando pasta" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1590779033100-9f8a48c2e5e2?w=400&h=300&fit=crop" alt="Pastas frescas" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?w=400&h=300&fit=crop" alt="Gnocchi caseros" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1622200292138-534fa58b9007?w=400&h=300&fit=crop" alt="Pastas de colores" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=400&h=300&fit=crop" alt="Cocina tradicional" /></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contact">
+        <div class="container contact-content">
+            <div class="contact-info">
+                <h2 class="section-title">Contacto</h2>
+                <ul>
+                    <li>&#128205; Av. de los Tallarines 234, Buenos Aires</li>
+                    <li>&#128231; hola@pastalicia.com</li>
+                    <li>&#128222; (011) 5555-6789</li>
+                    <li>&#128338; Lun a Sáb — 8:00 a 20:00</li>
+                </ul>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="WhatsApp">WA</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Tu nombre" required />
+                <input type="email" placeholder="Tu correo" required />
+                <textarea rows="5" placeholder="Contanos qué necesitás..."></textarea>
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Pastalicia. Hecho con amor y buena pasta.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
